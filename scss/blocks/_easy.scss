@@ -1,6 +1,5 @@
 .easy{
   padding-top: 150px;
-  padding-bottom: 150px;
 }
 .easy__inner{
   display: flex;
@@ -20,7 +19,7 @@
   margin-right: 70px;
 }
 .easy__title{
-  font-family: 'DM Serif Display';
+  font-family: 'DM Serif Display', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -71,7 +70,6 @@
 @include reponsive(450px){
   .easy{
     padding-top: 80px;
-    padding-bottom: 80px;
   }
   .easy__img{
     width: 328px;

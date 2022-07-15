@@ -1,0 +1,89 @@
+.simple{
+  padding-top: 150px;
+  background-image: url("../img/simple-bg.png");
+  background-repeat: no-repeat;
+  background-size: 650px 650px;
+  background-position: calc(50% + 570px) center;
+}
+.simple__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.simple__left{
+  max-width: 445px;
+}
+.simple__title{
+  font-family: 'DM Serif Display',serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.4px;
+  color: #36536b;
+  margin-bottom: 24px;
+}
+.simple__text{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+.simple__right{
+  margin-right: 50px;
+}
+.simple__img{
+  width: 556px;
+  height: 500px;
+}
+
+@include reponsive(1050px){
+  .simple__right{
+    margin-right: 0px;
+  }
+}
+@include reponsive(950px){
+  .simple{
+    background: none;
+  }
+  .simple__inner{
+    flex-direction: column-reverse;
+    text-align: center;     
+  } 
+  .simple__left{
+    max-width: 573px;
+  }
+ 
+}
+@include reponsive(550px){
+  .simple{
+    padding-top: 80px;
+  }
+  .simple__right{
+    margin-left: 20px;
+  }
+  .simple__img{
+    width: 363px;
+    height: 320px;
+  }
+  .simple__title{
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
+@include reponsive(450px){
+  .simple__left{
+    max-width: 328px;
+  }
+  .simple__img{
+    width: 328px;
+    height: 290px;
+  }
+}
+
+@include reponsive(315px){
+  .simple__right{
+    margin-left: 8%;
+  }
+}
