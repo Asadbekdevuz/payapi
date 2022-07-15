@@ -34,6 +34,9 @@
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+.ready__input::placeholder:active{
+  content: 'johnappleseed@mail.com';
+}
 .ready__button{
   font-weight: 700;
   font-size: 15px;
@@ -50,7 +53,12 @@
   margin: auto;
   cursor: pointer;
 }
-
+.ready__button:hover{
+  background-color: #da6d97;
+}
+.ready__button:active{
+  opacity: 0.7;
+}
 @include responsive(950px){
   .ready__inner{
     display: block;
@@ -116,5 +124,14 @@
     padding: 15px 50px;
     margin-top: 16px;
     width: 80%;
+  }
+}
+@include responsive(320px){
+  .ready__input{
+    width: 100%;
+  }
+  .ready__button{
+    padding: 15px 20px;
+    width: 100%;
   }
 }

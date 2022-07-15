@@ -111,6 +111,7 @@
 
 .humburger__img-x {
   display: none;
+  object-fit: contain;
 }
 
 .humburger__check:checked~.humburger__modal {
