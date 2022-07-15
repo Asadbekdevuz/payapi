@@ -1081,7 +1081,7 @@ body {
 }
 
 .simple__img {
-  width: 556px;
+  width: 566px;
   height: 500px;
 }
 
@@ -1498,18 +1498,17 @@ body {
 }
 
 .footer__link {
-  font-style: normal;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.923077px;
-  text-transform: uppercase;
-  color: #83888f;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FBFCFE;
+  opacity: 0.7;
   transition: all 0.3s ease;
 }
 
 .footer__link:hover {
   color: #ffffff;
+  opacity: 1;
 }
 
 .footer__link:active {
