@@ -129,7 +129,10 @@
   }
   .finance__item{
     max-width: 328px;
-    margin-bottom: 180px;
+    margin-bottom: 150px;
+  }
+  .finance__title{
+    margin-top: 33px;
   }
   .finance__item:nth-child(1){
     max-width: 328px;
@@ -153,7 +156,5 @@
     height: 106px;
     background-size: 106px 106px;
   }
-  .finance__title{
-    margin-top: 33px;
-  }
+ 
 }

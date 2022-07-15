@@ -1,0 +1,120 @@
+.ready{
+  padding-bottom: 96px;
+}
+.ready__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ready__heading{
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+}
+.form{
+  position: relative;
+}
+.ready__input{
+  width: 445px;
+  padding: 15px 0px 15px 27px;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  cursor: pointer;
+}
+.ready__input::placeholder{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.ready__button{
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  background: #ba4270;
+  border-radius: 24px;
+  padding: 15px 26px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+@include responsive(950px){
+  .ready__inner{
+    display: block;
+    text-align: center;    
+  }
+  .ready__heading{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .ready__input{
+    width: 55%;
+    padding: 15px 0px 15px 27px;
+    background: #fbfcfe;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    cursor: pointer;
+    display: inline;
+  }
+  .ready__button{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 170px;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+  }
+
+}
+@include responsive(800px){
+  .ready__inner{
+    display: block;
+    text-align: center;
+  }
+  .ready__button{
+    right: 120px;
+  }
+}
+
+@include responsive(750px){
+  .ready__input{
+    width: 70%;
+  }
+  .ready__button{
+    right: 30px;
+  }
+}
+@include responsive(550px){
+  .ready__heading{
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .form{
+    position: static;
+  }
+  .ready__input{
+    width: 80%;
+  }
+  .ready__button{
+    position: static;
+    display: block;
+    padding: 15px 50px;
+    margin-top: 16px;
+    width: 80%;
+  }
+}
