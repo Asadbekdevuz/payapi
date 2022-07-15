@@ -1,0 +1,43 @@
+.easy{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.easy__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.easy__img{
+  width: 445px;
+  height: 284px;
+  object-fit: cover;
+}
+
+.easy__right{
+  max-width: 445px;
+  margin-right: 70px;
+}
+.easy__title{
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.4px;
+  color: #36536b;
+  margin-bottom: 24px;
+}
+.easy__text{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+  margin-bottom: 60px;
+}
+
+@include reponsive(900px){
+  .easy__inner{
+    fle
+  }
+
+}

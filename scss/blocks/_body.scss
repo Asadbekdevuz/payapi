@@ -1,0 +1,23 @@
+body{
+  background-color: $bgcolor;
+  background-image: url("../img/hero-bg.png");
+  background-size: 780px 780px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 500px) -200px;
+}
+
+@include reponsive(900px){
+  body{
+  background-size: 900px 900px;
+  background-repeat: no-repeat;
+  background-position: center -580px;
+  }
+}
+
+@include reponsive(450px){
+  body{
+  background-size: 900px 900px;
+  background-repeat: no-repeat;
+  background-position: center -630px;
+  }
+}
