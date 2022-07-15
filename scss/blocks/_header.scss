@@ -130,7 +130,7 @@
   z-index: 2;
 
 }
-@include reponsive(670px){
+@include responsive(670px){
   .header__nav {
     display: none;
   }

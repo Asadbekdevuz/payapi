@@ -73,7 +73,7 @@
   margin-left: 87px;
 }
 
-@include reponsive(900px){
+@include responsive(900px){
   .intro{
     background-position: center -520px;
   }
@@ -110,7 +110,7 @@
   }
 
 }
-@include reponsive(575px){
+@include responsive(575px){
   .intro{
     background-position: center -570px;
   }
@@ -133,7 +133,7 @@
     margin-left: 0px;
   }
 }
-@include reponsive(450px){
+@include responsive(450px){
  
   .intro__title{
     font-weight: 400;
@@ -145,7 +145,7 @@
   }
 
 }
-@include reponsive(350px){
+@include responsive(350px){
     .intro__list{
       justify-content: center;
     }

@@ -1,9 +1,10 @@
 .simple{
   padding-top: 150px;
+  padding-bottom: 40px;
   background-image: url("../img/simple-bg.png");
   background-repeat: no-repeat;
-  background-size: 650px 650px;
-  background-position: calc(50% + 570px) center;
+  background-size: 700px 700px;
+  background-position: calc(50% + 625px) center;
 }
 .simple__inner{
   display: flex;
@@ -37,12 +38,12 @@
   height: 500px;
 }
 
-@include reponsive(1050px){
+@include responsive(1050px){
   .simple__right{
-    margin-right: 0px;
+    margin-right: 0px;  
   }
 }
-@include reponsive(950px){
+@include responsive(950px){
   .simple{
     background: none;
   }
@@ -55,7 +56,7 @@
   }
  
 }
-@include reponsive(550px){
+@include responsive(550px){
   .simple{
     padding-top: 80px;
   }
@@ -72,7 +73,7 @@
   }
 }
 
-@include reponsive(450px){
+@include responsive(450px){
   .simple__left{
     max-width: 328px;
   }
@@ -82,7 +83,7 @@
   }
 }
 
-@include reponsive(315px){
+@include responsive(315px){
   .simple__right{
     margin-left: 8%;
   }

@@ -35,20 +35,20 @@
   color: #6c8294;
   margin-bottom: 60px;
 }
-@include reponsive(1040px){
+@include responsive(1040px){
   .easy__right{
     margin-right: 10px;
   }
   
 }
 
-@include reponsive(970px){
+@include responsive(970px){
   .easy__right{
     margin-right: 0px;
   }
   
 }
-@include reponsive(950px){
+@include responsive(950px){
   .easy__inner{
    flex-direction: column;
    text-align: center;
@@ -67,7 +67,7 @@
     margin-bottom: 0px;
   }
 }
-@include reponsive(450px){
+@include responsive(450px){
   .easy{
     padding-top: 80px;
   }
@@ -83,7 +83,7 @@
   }
  
 }
-@include reponsive(350px){
+@include responsive(350px){
   .easy__img{
     width: 250px;
     height: 189px;

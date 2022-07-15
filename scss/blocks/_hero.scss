@@ -88,7 +88,7 @@
 
 
 
-@include reponsive(900px){
+@include responsive(900px){
   .hero__inner{
     flex-direction: column-reverse;    
   }
@@ -120,7 +120,7 @@
     right: 60px;
   }
 }
-@include reponsive(835px) {
+@include responsive(835px) {
   .hero__right {
     max-width: 500px;
     margin-right: 0px;  
@@ -131,7 +131,7 @@
 
 
 }
-@include reponsive(775px){
+@include responsive(775px){
   .hero__left{
     max-width: 450px;
   }
@@ -145,7 +145,7 @@
 
  
 }
-@include reponsive(450px){
+@include responsive(450px){
     .hero__right{
       margin-bottom: 24px;
     }
@@ -176,7 +176,7 @@
     }
 }
 
-@include reponsive(318px){
+@include responsive(318px){
   .hero__input{
     width: 100%;
   }
@@ -185,7 +185,7 @@
     width: 100%;
   }
 }
-@include reponsive(280px){
+@include responsive(280px){
   .hero__inner{
     flex-direction: column-reverse; 
     align-items: center;   

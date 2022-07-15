@@ -6,7 +6,7 @@ body{
   background-position: calc(50% + 500px) -200px;
 }
 
-@include reponsive(900px){
+@include responsive(900px){
   body{
   background-size: 900px 900px;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body{
   }
 }
 
-@include reponsive(450px){
+@include responsive(450px){
   body{
   background-size: 900px 900px;
   background-repeat: no-repeat;
