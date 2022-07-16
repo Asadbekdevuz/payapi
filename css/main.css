@@ -1461,7 +1461,7 @@ body {
 .footer {
   background-color: #1b262f;
   padding: 31px 0px;
-  background-image: url("../../img/footer-bg.png");
+  background-image: url("../img/footer-bg.png");
   background-repeat: no-repeat;
   background-size: 780px 780px;
   background-position: calc(50% + 650px) -100px;
@@ -1490,11 +1490,11 @@ body {
 .footer__list {
   display: flex;
   align-items: center;
-  margin-left: 103px;
+  margin-left: 60px;
 }
 
 .footer__item + .footer__item {
-  margin-left: 33px;
+  margin-left: 40px;
 }
 
 .footer__link {
